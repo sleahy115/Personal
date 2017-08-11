@@ -68,3 +68,11 @@ p {
   border: solid 4px;
   border-style: inset;
 }
+
+.screenshot2 {
+  height: 450px;
+  width: 450px;
+  border-color: #2b3342;
+  border: solid 4px;
+  border-style: inset;
+}
