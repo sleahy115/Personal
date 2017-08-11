@@ -7,6 +7,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { BlogComponent } from './blog/blog.component';
 import { ResumeComponent } from './resume/resume.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { GitArticleComponent } from './git-article/git-article.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
     ProjectsComponent,
     BlogComponent,
     ResumeComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    GitArticleComponent
   ],
   imports: [
     BrowserModule,
