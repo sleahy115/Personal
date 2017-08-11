@@ -67,14 +67,4 @@ p {
   border-color: #2b3342;
   border: solid 4px;
   border-style: inset;
-  margin-left: 50px;
-}
-
-.screenshot1 {
-  height: 400px;
-  width: 400px;
-  border-color: #2b3342;
-  border: solid 4px;
-  border-style: outset;
-  margin-left: 50px;
 }
