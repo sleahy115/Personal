@@ -76,3 +76,27 @@ p {
   border: solid 4px;
   border-style: inset;
 }
+
+.screenshot3 {
+  height: 400px;
+  width: 700px;
+  border-color: #2b3342;
+  border: solid 4px;
+  border-style: inset;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.screenshot4 {
+  height: 700px;
+  width: 300px;
+  border-color: #2b3342;
+  border: solid 4px;
+  border-style: inset;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

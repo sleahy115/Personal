@@ -1,14 +1,17 @@
 <div class="container">
   <h1>Digging into Git</h1>
-  <p>This past week I attended a great workshop on Git hosted by PDXWIT(Portland women in tech). The workshop was a great beginner course in using git, but it made me curious about just how much I could do with git. In my research, I found that the commands
-    are split into two categories, high level or porcelin and low level or plumbing commands. I was familiar with many of the high level commands like git add, git commit, and git clone. There were some I didn't know about however like git gui. This command
-    brings up a graphical user interface for making and tracking commits. I also spent some time getting more familiar with git rebase/ git revert/ and git reset. I admit that I have had issues with commits in the past and it is always good to know how
-    to roll something back. Briefly, the difference between these commands is how they affect the history and when in the process you use them. All of these commands will help you go back to a previous commit but if you have already pushed to your remote
-    repository you should use git revert. This is basically saying undo this commit both locally and remotely. If you have not pushed yet and you just need to change a local commit you should use git reset. For more information about which commands to
-    use check this
+  <p>This past week I attended a great workshop on Git hosted by <a href="http://www.pdxwit.org/">PDXWIT(Portland women in tech)</a>. The workshop was a great beginner course in using git, but it made me curious about just how much I could do with git. In
+    my research, I found that the commands are split into two categories, high level or porcelin and low level or plumbing commands. I was familiar with many of the high level commands like git add, git commit, and git clone. There were some I didn't
+    know about however like git gui. This command brings up a graphical user interface for making and tracking commits. Here is an example of what it looks like...
+    <img src="./assets/images/Git1.PNG" alt="Git gui Screenshot" class="screenshot3"> <br> I also spent some time getting more familiar with git rebase/ git revert/ and git reset. I admit that I have had issues with commits in the past and it is always
+    good to know how to roll something back. Briefly, the difference between these commands is how they affect the history and when in the process you use them. All of these commands will help you go back to a previous commit but if you have already pushed
+    to your remote repository you should use git revert. This is basically saying undo this commit both locally and remotely. If you have not pushed yet and you just need to change a local commit you should use git reset. For more information about which
+    commands to use check this
     <a href="https://stackoverflow.com/questions/39260120/rebase-vs-reset-vs-revert-i-just-want-to-roll-back">stack overflow thread</a> Another favorite porcelain command is git whatchanged which does exactly what it sounds like and shows you what changed
-    with each commit. Another command I really like is git log --graph --decorate --pretty=short, this command shows all the branches and merges on a project. It looks like this... Hopefully, these commands are helpful to you and if you would like to
-    see just how much more you can do with git I would recommend checking out this site <a href="https://www.kernel.org/pub/software/scm/git/docs/">this site</a>
+    with each commit. Another command I really like is git log --graph --decorate --pretty=short, this command shows all the branches and merges on a project. It looks like this...
+    <br>
+    <img src="./assets/images/Git2.PNG" alt="Git log Screenshot" class="screenshot4">
+    <br> Hopefully, these commands are helpful to you and if you would like to see just how much more you can do with git I would recommend checking out this site <a href="https://www.kernel.org/pub/software/scm/git/docs/">this site</a>
   </p>
   <p>Sources:
     <ul>
