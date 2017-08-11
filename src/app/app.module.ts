@@ -8,6 +8,7 @@ import { BlogComponent } from './blog/blog.component';
 import { ResumeComponent } from './resume/resume.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { GitArticleComponent } from './git-article/git-article.component';
+import { BootcampArticleComponent } from './bootcamp-article/bootcamp-article.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GitArticleComponent } from './git-article/git-article.component';
     BlogComponent,
     ResumeComponent,
     WelcomeComponent,
-    GitArticleComponent
+    GitArticleComponent,
+    BootcampArticleComponent
   ],
   imports: [
     BrowserModule,

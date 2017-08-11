@@ -1,4 +1,5 @@
 import { BlogComponent } from './blog/blog.component';
+import { BootcampArticleComponent } from './bootcamp-article/bootcamp-article.component';
 import { GitArticleComponent } from './git-article/git-article.component';
 import { ModuleWithProviders }  from '@angular/core';
 import { ProjectsComponent } from './projects/projects.component';
@@ -26,6 +27,10 @@ const appRoutes: Routes = [
     {
         path: 'blog/git',
         component: GitArticleComponent
+    },
+    {
+        path: 'blog/bootcamp',
+        component: BootcampArticleComponent
     }
 ];
 
