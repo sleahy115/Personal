@@ -100,3 +100,15 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.screenshot5 {
+  height: 200px;
+  width: 200px;
+  border-color: #2b3342;
+  border: solid 4px;
+  border-style: inset;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
