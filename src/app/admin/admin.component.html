@@ -4,11 +4,11 @@
     <label>Title</label>
     <input #newTitle class="form-control">
     <label>Date</label>
-    <input #newDate class="form-control">
+    <input #newDate class="form-control" type="date">
     <label>Author</label>
     <input #newAuthor class="form-control">
     <label>Entry</label>
-    <input #newEntry class="form-control">
-    <button id="click" (click)="submitNewGymnast(newName.value, newLevel.value, newEvents.value, newBeam.value, newBars.value, newFloor.value, newVault.value, newStatus.value)">Add</button>
+    <textarea rows="3" cols="400" #newEntry class="form-control"></textarea>
+    <button id="click" (click)="submitNewBlog(newTitle.value, newDate.value, newAuthor.value, newEntry.value)">Add Entry</button>
   </form>
 </div>
