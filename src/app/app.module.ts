@@ -9,6 +9,7 @@ import { ResumeComponent } from './resume/resume.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { GitArticleComponent } from './git-article/git-article.component';
 import { BootcampArticleComponent } from './bootcamp-article/bootcamp-article.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BootcampArticleComponent } from './bootcamp-article/bootcamp-article.co
     ResumeComponent,
     WelcomeComponent,
     GitArticleComponent,
-    BootcampArticleComponent
+    BootcampArticleComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

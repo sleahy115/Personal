@@ -1,3 +1,4 @@
+import { AdminComponent } from './admin/admin.component';
 import { BlogComponent } from './blog/blog.component';
 import { BootcampArticleComponent } from './bootcamp-article/bootcamp-article.component';
 import { GitArticleComponent } from './git-article/git-article.component';
@@ -31,6 +32,10 @@ const appRoutes: Routes = [
     {
         path: 'blog/bootcamp',
         component: BootcampArticleComponent
+    },
+    {
+        path: 'admin',
+        component: AdminComponent
     }
 ];
 
