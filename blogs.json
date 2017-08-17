@@ -1,0 +1,8 @@
+{ "blogs": [{
+    "title": "Sample Blog",
+    "date": "1/1/01",
+    "author": "Sample author",
+    "Entry": "Some sample text.",
+    "id": "1"
+  }]
+}

@@ -1,25 +1,21 @@
 import { Injectable } from '@angular/core';
 import { Blog } from './blog.model';
-import { AngularFire, FirebaseListObservable } from 'angularfire2';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable()
 export class BlogService {
-  gymnasts: FirebaseListObservable<any[]>;
+  blogs: FirebaseListObservable<any[]>;
 
- constructor(private angularFire: AngularFire) {
-   this.blogs = angularFire.database.list('blogs');
+ constructor(private database: AngularFireDatabase) {
+   this.blogs = database.list('blogs');
  }
-
+ //
  getBlogs() {
    return this.blogs;
  }
-
- addBlog(newBlog:Blog){
-   this.blogs.push(newBlog);
- }
-
-
-
-  constructor() { }
+ //
+ // addBlog(newBlog:Blog){
+ //   this.blogs.push(newBlog);
+ // }
 
 }
