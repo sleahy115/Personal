@@ -1,3 +1,14 @@
-<p>
-  admin works!
-</p>
+<div class="well" id="well">
+  <h2>Add new blog entry</h2>
+  <form>
+    <label>Title</label>
+    <input #newTitle class="form-control">
+    <label>Date</label>
+    <input #newDate class="form-control">
+    <label>Author</label>
+    <input #newAuthor class="form-control">
+    <label>Entry</label>
+    <input #newEntry class="form-control">
+    <button id="click" (click)="submitNewGymnast(newName.value, newLevel.value, newEvents.value, newBeam.value, newBars.value, newFloor.value, newVault.value, newStatus.value)">Add</button>
+  </form>
+</div>
