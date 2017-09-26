@@ -1,11 +1,20 @@
 #about {
-  width: 55%;
-  margin-right: 50px;
+  background-color: rgba(92,168,188,0.8);
+  margin: 0;
 }
 
 .dunes {
   height: 250px;
   width: 600px;
+}
+
+.footer {
+    margin-top: 10px;
+    text-align: center;
+    background-color: #427ba3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
 }
 
 #ink img{
@@ -15,7 +24,7 @@
 }
 
 .jumbotron {
-  margin-top: 10px;
+    margin-top: 10px;
     text-align: center;
     background-color: #427ba3;
     padding-top: 25px;
@@ -31,19 +40,27 @@ li {
   color: #427ba3;
 }
 
+.name {
+  margin-left: 40%;
+}
+
 .nav a {
     font-size: 25px;
     text-align: left;
-    color: #427ba3;
+    color: white;
 }
 
 .nav a:hover {
     text-decoration: underline;
-    color: #2b3342;
+    color: #427ba3;
 }
 
 p {
   font-size: 16px;
+}
+
+.proficent {
+  text-decoration: underline;
 }
 
 #resume-container {
@@ -55,10 +72,6 @@ p {
 
 #side-col h2 {
   color: #427ba3;
-}
-
-.proficent {
-  text-decoration: underline;
 }
 
 .screenshot {
@@ -112,3 +125,4 @@ p {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+

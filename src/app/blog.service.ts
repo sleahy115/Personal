@@ -9,7 +9,7 @@ export class BlogService {
  constructor(private database: AngularFireDatabase) {
    this.blogs = database.list('blogs');
  }
- //
+
  getBlogs() {
    return this.blogs;
  }
