@@ -1,11 +1,23 @@
 #about {
   background-color: rgba(92,168,188,1);
-  margin: 0;
+  margin: unset;
+}
+
+#about h1 {
+  margin: unset;
+}
+
+#about p {
+  margin: unset;
 }
 
 .contact {
-  background-color: rgb(178,1,107);
-  margin: 0;
+  background-color: rgb(0,68,84);
+  margin: unset;
+}
+
+.contact h1 {
+  margin: unset;
 }
 
 .footer {
@@ -56,11 +68,12 @@ li {
 
 p {
   font-size: 16px;
+  margin: unset;
 }
 
 .pics {
-  background-color: rgb(0,68,84);
-  margin: 0;
+  background-color: rgb(178,1,107);
+  margin: unset;
 }
 
 .pics img {
